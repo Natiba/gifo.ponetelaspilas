@@ -78,6 +78,98 @@ margin: 1rem auto;
     margin: 1rem auto
 }
 
+ /* ===xx Search - hidden xx=== */
+  /* ===xx Favorite - hidden xx=== */
+   /* ===xx My Gifos - hidden xx=== */
+
+ .searchActiveContainer {
+     width: 100%;
+     margin: auto;
+ }
+
+ .searchActiveContainer hr {
+    opacity: 0.5;
+    border: 1px solid #9CAFC3;
+    width: 50%;
+    margin: 2rem auto;
+ }
+
+ .searchActiveContainer h3 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 25px;
+    color: #572EE5;
+    text-align: center;
+    line-height: 40px;
+ }
+
+ .searchActiveContainer .activeImgContainer {
+     width: 90%;
+     display: flex;
+     flex-direction: row;
+     margin: 0 auto;
+ }
+
+ .active1, .active2 {
+     display: flex;
+     flex-direction: column;
+     margin: 0 auto;
+ }
+
+ .searchActiveContainer .activeImgContainer img {
+     width: 156px;
+     height: 120px;
+     margin: 15px 0px;
+ }
+
+ .searchActiveContainer>a>img {
+     margin: 3rem;
+ }
+
+ /* ===xx Max Gifo - hidden xx=== */
+
+ .maxGifContainer {
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+     margin: 1rem auto;
+ }
+
+ .maxGifContainer>img:nth-child(1) {
+     width: 5%;
+     margin-top: 1rem;
+     margin-left: 90%;
+ }
+
+ .maxGifContainer>img:nth-child(2) {
+    width: 318px;
+    height: 245px;
+    margin: 1.5rem auto;
+}
+
+.maxGifContainer .maxsubGifoContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.maxGifContainer .maxsubGifoContainer .maxSubtitlesContainer {
+    color: #000000;
+    text-align: center;
+}
+
+.maxGifContainer .maxsubGifoContainer .maxSubtitlesContainer p {
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.maxGifContainer .maxsubGifoContainer .maxSubtitlesContainer h4 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 /* =xx= Section Trending GIFOS =xx= */
 
 section.gifos {
@@ -127,7 +219,7 @@ margin: 0 1rem;
 /* ==== footer ==== */
 
 footer {
-    width: 80%;
+    width: 100%;
     margin: 1rem auto;
     display: flex;
     flex-direction: column;
@@ -136,11 +228,13 @@ footer {
     font-size: 15px;
     color: #000000;
     letter-spacing: 0;
+    border-bottom: 4px solid #572EE5;
+    padding: 1rem;
 }
 
 footer .socialIconsContainer {
     display: flex;
     justify-content: space-between;
-    width: 34%;
+    width: 28%;
     margin: 1rem auto;
 }
