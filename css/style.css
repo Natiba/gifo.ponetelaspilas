@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+/* xxxx Mobile style xxxx */
+
+/* ==== nav ==== */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    border-top: 4px solid #572EE5;;
+}
+
+/* ==== main ==== */
+
+h1 {
+    font-family: Montserrat-Bold;
+    font-size: 25px;
+    color: #572EE5;
+    text-align: center;
+    line-height: 33px;
+    width: 70%;
+    margin: auto;
+}
+
+h1>span {
+    color: #50E3C2 ;
+}
+
+/* =xx= Section Search =xx= */
+
+.searchContainer {
+width: 90%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 1rem auto;
+}
+
+.searchContainer>img {
+    width: 80%;
+    display: block:
+}
+
+.searchBar {
+    background: #FFFFFF;
+    border: 1px solid #572EE5;
+    border-radius: 27px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.searchBar input {
+    border: none;
+}
+
+/* =xx= Section Trending =xx= */
+
+.trendingContainer {
+    width: 60%;
+    font-family: Montserrat;
+    color: #572EE5;
+    text-align: center;
+    line-height: 25px;
+    margin: 1rem auto
+}
+
+/* =xx= Section Trending GIFOS =xx= */
+
+section.gifos {
+    background: #F3F5F8;
+    padding: 1rem;
+}
+
+.trendingGifosContainer {
+    width: 100%;
+    font-family: Montserrat;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.trendingTitlesContainer {
+    width: 60%;
+    margin: auto;
+}
+
+.trendingGifosContainer h3 {
+    color: #572EE5;
+    line-height: 30px;
+}
+
+.trendingGifosContainer p {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    line-height: 23px;
+}
+
+.trendingGifosContainer .carousel {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    width: 100%;
+    overflow: scroll;
+}
+
+.trendingGifosContainer .carousel img {
+width: 243px;
+height: 187px;
+margin: 0 1rem;
+}
+
+/* ==== footer ==== */
+
+footer {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-weight: regular;
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+footer .socialIconsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 34%;
+    margin: 1rem auto;
+}
