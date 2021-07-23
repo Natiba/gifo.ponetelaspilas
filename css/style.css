@@ -17,13 +17,13 @@ nav {
     justify-content: space-around;
     align-items: center;
     padding: 1em;
-    border-top: 4px solid #572EE5;;
+    border-top: 4px solid #572EE5;
 }
 
 /* ==== main ==== */
 
 h1 {
-    font-family: Montserrat-Bold;
+    font-family: Montserrat;
     font-size: 25px;
     color: #572EE5;
     text-align: center;
@@ -33,7 +33,7 @@ h1 {
 }
 
 h1>span {
-    color: #50E3C2 ;
+    color: #50E3C2;
 }
 
 /* =xx= Section Search =xx= */
@@ -49,7 +49,7 @@ margin: 1rem auto;
 
 .searchContainer>img {
     width: 80%;
-    display: block:
+    display: block;
 }
 
 .searchBar {
